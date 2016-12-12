@@ -41,7 +41,7 @@ public class ProductDao {
 		// this.getHibernateTemplate().findByCriteria(criteria, 0, 10);
 		String hql = "from Product where is_hot=? order by pdate desc";
 		Query query = getSession().createQuery(hql).setInteger(0, 1);
-		List<Product> list = query.setFirstResult(0).setMaxResults(9).list();
+		List<Product> list = query.setFirstResult(0).setMaxResults(10).list();
 		return list;
 	}
 
@@ -56,7 +56,7 @@ public class ProductDao {
 		// this.getHibernateTemplate().findByCriteria(criteria, 0, 10);
 		String hql = "from Product order by pdate desc";
 		Query query = getSession().createQuery(hql);
-		List<Product> list = query.setFirstResult(0).setMaxResults(9).list();
+		List<Product> list = query.setFirstResult(0).setMaxResults(10).list();
 		return list;
 	}
 
