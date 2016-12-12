@@ -16,7 +16,7 @@
 <div class="container header">
 	<div class="span5">
 		<div class="logo">
-			<a href="./网上商城/index.htm">
+			<a href="">
 				<img src="${pageContext.request.contextPath}/image/r___________renleipic_01/logo.gif" alt="加速器电商"/>
 			</a>
 		</div>
@@ -217,10 +217,7 @@
 								<a  target="_blank">购物帮助</a>
 								|
 							</dd>
-							<dd>
-								<a  target="_blank">蔬菜卡</a>
-								|
-							</dd>
+							
 							<dd>
 								<a  target="_blank">礼品卡</a>
 								|

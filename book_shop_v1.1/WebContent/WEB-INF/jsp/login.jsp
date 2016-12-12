@@ -18,7 +18,7 @@
 <div class="container header">
 	<div class="span5">
 		<div class="logo">
-			<a href="http://localhost:8080/mango/">
+			<a href="">
 				<img src="${pageContext.request.contextPath}/image/r___________renleipic_01/logo.gif" alt="加速器电商">
 			</a>
 		</div>

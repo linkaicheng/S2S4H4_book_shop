@@ -93,7 +93,7 @@
 	<div class="container header">
 		<div class="span5">
 			<div class="logo">
-				<a href="http://localhost:8080/mango/"> <img
+				<a href=""> <img
 					src="${pageContext.request.contextPath}/image/r___________renleipic_01/logo.gif"
 					alt=""></a>
 			</div>
@@ -283,7 +283,7 @@
 							<dl>
 								<dt>已经拥有账号了？</dt>
 								<dd>
-									立即登录即可体验在线购物！ <a href="./会员登录.htm">立即登录</a>
+									立即登录即可体验在线购物！ <a href="/book_shop_v1.1/user_loginPage.action">立即登录</a>
 								</dd>
 							</dl>
 						</div>
@@ -313,13 +313,13 @@
 			</ul>
 		</div>
 		<div class="span24">
-			<div class="copyright">Copyright © 2005-2015 网上商城 版权所有</div>
+			<div class="copyright">Copyright © 2006-2016 网上商城 版权所有</div>
 		</div>
 	</div>
 	<div id="_my97DP"
 		style="position: absolute; top: -1970px; left: -1970px;">
 		<iframe style="width: 190px; height: 191px;"
-			src="./会员注册 - Powered By Mango Team_files/My97DatePicker.htm"
+			src=""
 			frameborder="0" border="0" scrolling="no"></iframe>
 	</div>
 </body>
